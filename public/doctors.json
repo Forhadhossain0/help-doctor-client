@@ -1,0 +1,327 @@
+[
+    {
+      "aboutMe": "Dedicated to providing top-notch dental care, I am Dr. Emily Rodriguez. I graduated from Harmony Dental College in 2003 with a BDS and later earned my MDS in Prosthodontics in 2007. With over 15 years of experience, I specialize in restoring and enhancing smiles at Renew Dental Prosthetics.",
+      "education": [
+        {
+          "university": "Harmony Dental College",
+          "degree": "BDS",
+          "year": "1999 - 2003"
+        },
+        {
+          "university": "Harmony Dental College",
+          "degree": "MDS in Prosthodontics",
+          "year": "2003 - 2007"
+        }
+      ],
+      "workExperience": [
+        {
+          "clinic": "Renew Dental Prosthetics",
+          "duration": "2010 - Present (13 years)"
+        },
+        {
+          "clinic": "Revive Smiles Dentistry",
+          "duration": "2007 - 2010 (3 years)"
+        }
+      ],
+      "awards": [
+        {
+          "date": "August 2018",
+          "award": "Prosthodontist of the Year",
+          "description": "Recognized for excellence in prosthodontics and commitment to patient satisfaction."
+        },
+        {
+          "date": "February 2012",
+          "award": "Innovation in Dental Restorations",
+          "description": "Acknowledged for pioneering contributions to innovative dental prosthetics."
+        }
+      ],
+      "services": [
+        "Dental Prosthetics Consultation",
+        "Denture Fittings",
+        "Dental Crowns and Bridges",
+        "Full Mouth Restoration"
+      ],
+      "specializations": [
+        "Prosthodontics",
+        "Dental Care"
+      ],
+      "id": 1,
+      "doctorName": "Emily Rodriguez",
+      "doctorImage": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?w=740&t=st=1700341710~exp=1700342310~hmac=a7c450f64e12513310b7807afb151701fbf43353471b72b33fe5147d9026d1d9",
+      "doctorDegree": "Doctor of Dental Medicine (DMD)",
+      "location": "789 Maple Avenue, Smilesville",
+      "availableTime": "Tuesday to Saturday: 9 AM - 6 PM",
+      "ratings": 4.9,
+      "fee":15,
+      "shortImages": [
+        "path/to/doctor1/image1.jpg",
+        "path/to/doctor1/image2.jpg",
+        "path/to/doctor1/image3.jpg"
+      ],
+      "similarOperation1": "Dental Prosthetics Consultation",
+      "similarOperation2": "Full Mouth Restoration"
+    },
+
+
+
+
+
+
+
+    
+    {
+      "aboutMe": "Greetings! I'm Dr. Sophia Chang, an experienced Periodontist committed to ensuring optimal gum health. I earned my DDS from GumCare University in 2004 and completed my MDS in Periodontics in 2008. Join me at Gums and Grace Periodontal Center for comprehensive periodontal care and personalized treatment plans.",
+      "education": [
+        {
+          "university": "GumCare University",
+          "degree": "DDS",
+          "year": "2000 - 2004"
+        },
+        {
+          "university": "GumCare University",
+          "degree": "MDS in Periodontics",
+          "year": "2004 - 2008"
+        }
+      ],
+      "workExperience": [
+        {
+          "clinic": "Gums and Grace Periodontal Center",
+          "duration": "2011 - Present (12 years)"
+        },
+        {
+          "clinic": "Healthy Gums Dentistry",
+          "duration": "2008 - 2011 (3 years)"
+        }
+      ],
+      "awards": [
+        {
+          "date": "September 2016",
+          "award": "Periodontist of the Year",
+          "description": "Recognized for excellence in periodontics and dedication to gum health education."
+        },
+        {
+          "date": "April 2009",
+          "award": "Innovations in Gum Disease Prevention",
+          "description": "Acknowledged for contributions to innovative approaches in preventing gum diseases."
+        }
+      ],
+      "services": [
+        "Periodontal Consultation",
+        "Gum Disease Treatment",
+        "Gum Grafting",
+        "Dental Implants for Periodontal Patients"
+      ],
+      "specializations": [
+        "Periodontist",
+        "Dental Care"
+      ],
+      "id": 2,
+      "doctorName": "Sophia Chang",
+      "doctorImage": "https://img.freepik.com/free-photo/doctor-with-co-workers-analyzing-x-ray_1098-581.jpg?w=740&t=st=1700341786~exp=1700342386~hmac=6b390f91ac1d063009b5558f9a02458701d0b37979e571edbc264720d51a9021",
+      "doctorDegree": "Doctor of Dental Surgery (DDS)",
+      "location": "567 Oak Street, Gumville",
+      "availableTime": "Monday to Friday: 8 AM - 5 PM",
+      "ratings": 4.7,
+      "fee":15,
+      "shortImages": [
+        "path/to/doctor2/image1.jpg",
+        "path/to/doctor2/image2.jpg",
+        "path/to/doctor2/image3.jpg"
+      ],
+      "similarOperation1": "Periodontal Consultation",
+      "similarOperation2": "Gum Disease Prevention Workshop"
+    },
+
+
+
+
+
+
+
+    {
+      "aboutMe": "Hello! I'm Dr. Thomas Williams, a dedicated Orthodontist with a passion for creating beautiful and healthy smiles. I graduated from StraightTeeth Institute in 2005 and have been transforming smiles at PerfectAlign Orthodontics since then. Join me for a journey towards confident and aligned smiles!",
+      "education": [
+        {
+          "university": "StraightTeeth Institute",
+          "degree": "DDS in Orthodontics",
+          "year": "2001 - 2005"
+        }
+      ],
+      "workExperience": [
+        {
+          "clinic": "PerfectAlign Orthodontics",
+          "duration": "2008 - Present (15 years)"
+        },
+        {
+          "clinic": "SmileCraft Orthodontic Center",
+          "duration": "2005 - 2008 (3 years)"
+        }
+      ],
+      "awards": [
+        {
+          "date": "October 2014",
+          "award": "Orthodontist of the Year",
+          "description": "Recognized for outstanding contributions to the field of orthodontics and commitment to patient care."
+        },
+        {
+          "date": "June 2007",
+          "award": "Community Smile Transformation Award",
+          "description": "Acknowledged for actively contributing to community programs focused on smile transformations."
+        }
+      ],
+      "services": [
+        "Orthodontic Consultation",
+        "Braces Installation",
+        "Invisalign",
+        "Retainer Fittings"
+      ],
+      "specializations": [
+        "Orthodontist",
+        "Dental Care"
+      ],
+      "id": 3,
+      "doctorName": "Thomas Williams",
+      "doctorImage": "https://img.freepik.com/free-photo/female-doctor-hospital_23-2148827760.jpg?w=740&t=st=1700341815~exp=1700342415~hmac=25005383a7274c68c90a1bdc9673f655366384721604185e4a5571f8649018e8",
+      "doctorDegree": "Doctor of Dental Medicine (DMD)",
+      "location": "345 Cedar Avenue, Smiletown",
+      "availableTime": "Monday to Thursday: 10 AM - 7 PM",
+      "ratings": 4.8,
+      "fee":15,
+      "shortImages": [
+        "path/to/doctor3/image1.jpg",
+        "path/to/doctor3/image2.jpg",
+        "path/to/doctor3/image3.jpg"
+      ],
+      "similarOperation1": "Orthodontic Correction",
+      "similarOperation2": "Dental Braces Installation"
+    },
+
+
+
+
+    {
+        "aboutMe": "Greetings! I'm Dr. Olivia Smith, a passionate Oral Surgeon committed to providing exceptional surgical care. I earned my DDS from Precision Dental College in 2002 and completed my residency in Oral and Maxillofacial Surgery in 2007. Join me at Precision Surgical Solutions for personalized and advanced surgical solutions.",
+        "education": [
+          {
+            "university": "Precision Dental College",
+            "degree": "DDS",
+            "year": "1998 - 2002"
+          },
+          {
+            "university": "Precision Dental College",
+            "degree": "Residency in Oral and Maxillofacial Surgery",
+            "year": "2002 - 2007"
+          }
+        ],
+        "workExperience": [
+          {
+            "clinic": "Precision Surgical Solutions",
+            "duration": "2010 - Present (13 years)"
+          },
+          {
+            "clinic": "Advanced Dental Care",
+            "duration": "2007 - 2010 (3 years)"
+          }
+        ],
+        "awards": [
+          {
+            "date": "November 2015",
+            "award": "Excellence in Oral Surgery",
+            "description": "Recognized for outstanding contributions to the field of oral and maxillofacial surgery and commitment to patient care."
+          },
+          {
+            "date": "March 2009",
+            "award": "Innovations in Surgical Techniques",
+            "description": "Acknowledged for pioneering advancements in oral surgical techniques."
+          }
+        ],
+        "services": [
+          "Oral Surgery Consultation",
+          "Jaw Reconstruction",
+          "Dental Implants",
+          "Facial Trauma Surgery"
+        ],
+        "specializations": [
+          "Oral and Maxillofacial Surgery",
+          "Dental Care"
+        ],
+        "id": 4,
+        "doctorName": "Olivia Smith ",
+        "doctorImage": "https://img.freepik.com/free-photo/healthcare-workers-preventing-virus-quarantine-campaign-concept-cheerful-friendly-asian-female-physician-doctor-with-clipboard-during-daily-checkup-standing-white-background_1258-107867.jpg?w=740&t=st=1700341905~exp=1700342505~hmac=1d998aac9a18ad0f0fd6178aa485484c34728376b2624aa19b9b890f1199c8af",
+        "doctorDegree": "Doctor of Dental Surgery (DDS)",
+        "location": "234 Pine Street, Surgerville",
+        "availableTime": "Monday to Wednesday: 9 AM - 4 PM",
+        "ratings": 4.9,
+        "fee":15,
+        "shortImages": [
+          "path/to/doctor4/image1.jpg",
+          "path/to/doctor4/image2.jpg",
+          "path/to/doctor4/image3.jpg"
+        ],
+        "similarOperation1": "Oral Surgery Consultation",
+        "similarOperation2": "Dental Implant Procedure"
+      },
+
+
+
+
+      {
+        "aboutMe": "Hello! I'm Dr. Vanessa Martinez, a dedicated Pediatric Dentist with a mission to make dental visits enjoyable for children. I graduated from KidsCare Dental School in 2005 and have been creating happy smiles at Little Explorers Pediatric Dentistry since then. Join me for a journey towards a lifetime of healthy oral habits!",
+        "education": [
+          {
+            "university": "KidsCare Dental School",
+            "degree": "DDS in Pediatric Dentistry",
+            "year": "2001 - 2005"
+          }
+        ],
+        "workExperience": [
+          {
+            "clinic": "Little Explorers Pediatric Dentistry",
+            "duration": "2008 - Present (15 years)"
+          },
+          {
+            "clinic": "Joyful Teeth for Kids",
+            "duration": "2005 - 2008 (3 years)"
+          }
+        ],
+        "awards": [
+          {
+            "date": "October 2017",
+            "award": "Pediatric Dentist of the Year",
+            "description": "Recognized for exceptional dedication to children's dental health and education."
+          },
+          {
+            "date": "May 2010",
+            "award": "Community Smile Ambassador",
+            "description": "Acknowledged for actively promoting children's oral health in the community."
+          }
+        ],
+        "services": [
+          "Pediatric Dental Checkup",
+          "Fluoride Treatment",
+          "Cavity Fillings",
+          "Behavior Management"
+        ],
+        "specializations": [
+          "Children Care",
+          "Dental Care"
+        ],
+        "id": 5,
+        "doctorName": " Vanessa Martinez",
+        "doctorImage": "https://img.freepik.com/premium-photo/portrait-smiling-male-doctor-with-stethoscope-hospital-ai-generated_632984-112.jpg?w=740",
+        "doctorDegree": "Doctor of Dental Surgery (DDS)",
+        "location": "789 Elm Avenue, Kidstown",
+        "availableTime": "Monday to Friday: 10 AM - 6 PM",
+        "ratings": 4.8,
+        "fee":15,
+        "shortImages": [
+          "path/to/doctor5/image1.jpg",
+          "path/to/doctor5/image2.jpg",
+          "path/to/doctor5/image3.jpg"
+        ],
+        "similarOperation1": "Pediatric Dental Checkup",
+        "similarOperation2": "Cavity Prevention Workshop for Kids"
+      }
+]      
+     
+  

@@ -1,0 +1,298 @@
+[
+
+        {
+          "servicename": "Orthopedic Care",
+          "serviceimage": "https://img.freepik.com/premium-vector/orthopaedic-clinic-logo-vector-design_617585-5630.jpg?w=740",
+          "subservices": [
+            {
+              "subservicename": "Bone Fracture Consultation",
+              "subserviceimage": "https://img.freepik.com/free-vector/radiography-concept-illustration_114360-3573.jpg?w=740&t=st=1700413957~exp=1700414557~hmac=f492a19fb242b2230b21e25d224e7163e629f6bf4771e307713d4286f82d475b",
+              "time": "9:00 AM - 10:00 AM"
+            },
+            {
+              "subservicename": "Joint Pain Management",
+              "subserviceimage": "https://img.freepik.com/free-vector/arthritis-concept-illustration_114360-7167.jpg?w=740&t=st=1700413988~exp=1700414588~hmac=6d8df31deb8651e2b08062f9a278da17b2ec4216493c32caa1b7492a83f8248f",
+              "time": "10:30 AM - 11:30 AM"
+            },
+            {
+              "subservicename": "Orthopedic Surgery Evaluation",
+              "subserviceimage": "https://img.freepik.com/free-vector/rheumatology-concept-illustration_114360-9278.jpg?w=740&t=st=1700414032~exp=1700414632~hmac=ff3c4037f1e32b8ca0482310fd09caacb2c8d13395831a9799a2a2c583e7bd21",
+              "time": "12:00 PM - 1:00 PM"
+            },
+            {
+              "subservicename": "Sports Injury Consultation",
+              "subserviceimage": "https://img.freepik.com/free-vector/athlete-running-tiny-people-physicians-treating-injuries-sports-medicine-sports-medical-services-sports-physician-specialist-concept-pinkish-coral-bluevector-vector-isolated-illustration_335657-1593.jpg?w=740&t=st=1700414067~exp=1700414667~hmac=98a3860a204e465815e0b928694d4838d983b27b5124e86282d833659ecd7b44",
+              "time": "2:00 PM - 3:00 PM"
+            },
+            {
+              "subservicename": "Arthritis Management",
+              "subserviceimage": "https://img.freepik.com/free-vector/diagram-showing-rheumatoid-arthritis-hand_1308-549.jpg?w=740&t=st=1700414107~exp=1700414707~hmac=5336a9e0ab65e4cdf6d4dd7a9ac0a58c7d0e51b4107a9235f9eaf7290296d6e0",
+              "time": "3:30 PM - 4:30 PM"
+            },
+            {
+              "subservicename": "Pediatric Orthopedics",
+              "subserviceimage": "https://img.freepik.com/free-vector/girl-with-broken-bone-seeing-doctor_1308-33281.jpg?w=740&t=st=1700414216~exp=1700414816~hmac=f85775e15393cc5a7173fc2b19f58cf9d1b9e4ebacbe8c705ffa952fa4c2aa0a",
+              "time": "5:00 PM - 6:00 PM"
+            }
+          ]
+        },
+        {
+          "servicename": "Allergy and Immunology",
+          "serviceimage": "https://img.freepik.com/free-vector/allergy-concept-with-symptoms-treatment-common-allergens-symbols-cartoon_1284-55530.jpg?w=740&t=st=1700413509~exp=1700414109~hmac=4f85b74087134df0937d6cd38c0b872dd0c6d7552c26a7cd053e4f2ca3a8e2ce",
+          "subservices": [
+            {
+              "subservicename": "Allergy Testing",
+              "subserviceimage": "path/to/allergytesting/image.jpg",
+              "time": "1:30 PM - 2:30 PM"
+            },
+            {
+              "subservicename": "Immunotherapy Consultation",
+              "subserviceimage": "path/to/immunotherapy/image.jpg",
+              "time": "3:00 PM - 4:00 PM"
+            },
+            {
+              "subservicename": "Respiratory Health Evaluation",
+              "subserviceimage": "path/to/respiratoryhealth/image.jpg",
+              "time": "4:30 PM - 5:30 PM"
+            },
+            {
+              "subservicename": "Allergy Prevention Program",
+              "subserviceimage": "path/to/allergyprevention/image.jpg",
+              "time": "6:00 PM - 7:00 PM"
+            },
+            {
+              "subservicename": "Pediatric Allergology",
+              "subserviceimage": "path/to/pediatricallergology/image.jpg",
+              "time": "7:30 PM - 8:30 PM"
+            },
+            {
+              "subservicename": "Food Allergy Consultation",
+              "subserviceimage": "path/to/foodallergy/image.jpg",
+              "time": "9:00 PM - 10:00 PM"
+            }
+          ]
+        },
+        {
+          "servicename": "Geriatric Care",
+          "serviceimage": "https://img.freepik.com/free-vector/hand-drawn-flat-design-parkinson-illustration_23-2149279946.jpg?w=740&t=st=1700413555~exp=1700414155~hmac=1bee991425ec2765611a99238388a3b4940256320aa72d256459dcb2d98bc43c",
+          "subservices": [
+            {
+              "subservicename": "Senior Wellness Checkup",
+              "subserviceimage": "path/to/seniorwellness/image.jpg",
+              "time": "10:00 AM - 11:00 AM"
+            },
+            {
+              "subservicename": "Memory Assessment",
+              "subserviceimage": "path/to/memoryassessment/image.jpg",
+              "time": "11:30 AM - 12:30 PM"
+            },
+            {
+              "subservicename": "Fall Prevention Consultation",
+              "subserviceimage": "path/to/fallprevention/image.jpg",
+              "time": "1:00 PM - 2:00 PM"
+            },
+            {
+              "subservicename": "Cognitive Rehabilitation",
+              "subserviceimage": "path/to/cognitiverehabilitation/image.jpg",
+              "time": "2:30 PM - 3:30 PM"
+            },
+            {
+              "subservicename": "Geriatric Nutrition Counseling",
+              "subserviceimage": "path/to/geriatricnutrition/image.jpg",
+              "time": "4:00 PM - 5:00 PM"
+            },
+            {
+              "subservicename": "Mobility Aid Prescription",
+              "subserviceimage": "path/to/mobilityaidprescription/image.jpg",
+              "time": "5:30 PM - 6:30 PM"
+            }
+          ]
+        },
+        {
+          "servicename": "Pulmonology",
+          "serviceimage": "https://img.freepik.com/free-vector/respiratory-medicine-pulmonology-healthcare-concept-doctors-check-human-tuberculosis-pneumonia-lungs-with-magnifying-glass-make-x-ray-medical-pulmonological-care-vector-illustration_73637-634.jpg?w=740&t=st=1700413601~exp=1700414201~hmac=daf2d386f21e7806f11ac79361a16d44f3a72758c60032bf6f130250fd003574",
+          "subservices": [
+            {
+              "subservicename": "Lung Function Test",
+              "subserviceimage": "path/to/lungfunctiontest/image.jpg",
+              "time": "2:30 PM - 3:30 PM"
+            },
+            {
+              "subservicename": "Respiratory Consultation",
+              "subserviceimage": "path/to/respiratoryconsultation/image.jpg",
+              "time": "4:00 PM - 5:00 PM"
+            },
+            {
+              "subservicename": "Asthma Management",
+              "subserviceimage": "path/to/asthmamanagement/image.jpg",
+              "time": "5:30 PM - 6:30 PM"
+            },
+            {
+              "subservicename": "Chronic Bronchitis Evaluation",
+              "subserviceimage": "path/to/chronicbronchitis/image.jpg",
+              "time": "7:00 PM - 8:00 PM"
+            },
+            {
+              "subservicename": "Pulmonary Rehabilitation",
+              "subserviceimage": "path/to/pulmonaryrehabilitation/image.jpg",
+              "time": "8:30 PM - 9:30 PM"
+            },
+            {
+              "subservicename": "Smoking Cessation Program",
+              "subserviceimage": "path/to/smokingcessation/image.jpg",
+              "time": "10:00 PM - 11:00 PM"
+            }
+          ]
+        },
+        {
+          "servicename": "Sleep Medicine",
+          "serviceimage": "https://img.freepik.com/free-vector/tired-woman-trying-sleep_23-2148651903.jpg?w=740&t=st=1700413644~exp=1700414244~hmac=e5232bf00aee469b51adee2afa71677e38ae2421c10fc740d1002d32ea69a700",
+          "subservices": [
+            {
+              "subservicename": "Sleep Disorder Evaluation",
+              "subserviceimage": "path/to/sleepdisorderevaluation/image.jpg",
+              "time": "9:30 AM - 10:30 AM"
+            },
+            {
+              "subservicename": "Polysomnography",
+              "subserviceimage": "path/to/polysomnography/image.jpg",
+              "time": "11:00 AM - 12:00 PM"
+            },
+            {
+              "subservicename": "Insomnia Management",
+              "subserviceimage": "path/to/insomniamanagement/image.jpg",
+              "time": "12:30 PM - 1:30 PM"
+            },
+            {
+              "subservicename": "Narcolepsy Diagnosis",
+              "subserviceimage": "path/to/narcolepsydiagnosis/image.jpg",
+              "time": "2:00 PM - 3:00 PM"
+            },
+            {
+              "subservicename": "Sleep Apnea Treatment",
+              "subserviceimage": "path/to/sleepapneatreatment/image.jpg",
+              "time": "3:30 PM - 4:30 PM"
+            },
+            {
+              "subservicename": "Pediatric Sleep Consultation",
+              "subserviceimage": "path/to/pediatricsleepconsultation/image.jpg",
+              "time": "5:00 PM - 6:00 PM"
+            }
+          ]
+        },
+    
+
+
+    {
+      "servicename": "Women's Health",
+      "serviceimage": "https://img.freepik.com/free-vector/self-care-health-concept_23-2148517202.jpg?w=740&t=st=1700413688~exp=1700414288~hmac=b4705ef2349545c1113508fe40e02fe2efb4f60dc301427281b643d7d8ec44eb",
+      "subservices": [
+        {
+          "subservicename": "Obstetric Care",
+          "subserviceimage": "path/to/obstetriccare/image.jpg",
+          "time": "9:00 AM - 10:00 AM"
+        },
+        {
+          "subservicename": "Gynecological Exams",
+          "subserviceimage": "path/to/gynecologicalexams/image.jpg",
+          "time": "10:30 AM - 11:30 AM"
+        },
+        {
+          "subservicename": "Family Planning Consultation",
+          "subserviceimage": "path/to/familyplanning/image.jpg",
+          "time": "12:00 PM - 1:00 PM"
+        }
+
+      ]
+    },
+    {
+      "servicename": "Mental Health",
+      "serviceimage": "https://img.freepik.com/premium-vector/mental-health-awareness-concept_23-2148531132.jpg?w=740",
+      "subservices": [
+        {
+          "subservicename": "Counseling Session",
+          "subserviceimage": "path/to/counselingsession/image.jpg",
+          "time": "1:30 PM - 2:30 PM"
+        },
+        {
+          "subservicename": "Psychiatric Evaluation",
+          "subserviceimage": "path/to/psychiatricevaluation/image.jpg",
+          "time": "3:00 PM - 4:00 PM"
+        },
+        {
+          "subservicename": "Support Group Meeting",
+          "subserviceimage": "path/to/supportgroup/image.jpg",
+          "time": "4:30 PM - 5:30 PM"
+        }
+
+      ]
+    },
+    {
+      "servicename": "Nutrition Services",
+      "serviceimage": "https://img.freepik.com/free-vector/food-nutritional-quality-abstract-concept-vector-illustration-nutrition-value-health-maintenance-human-metabolism-organic-food-livestock-quality-inspection-certification-abstract-metaphor_335657-2594.jpg?w=740&t=st=1700413808~exp=1700414408~hmac=6c6b24200073534a99a3677b47aa3e93f82fab64b2dd875ad41213bbf25f1e60",
+      "subservices": [
+        {
+          "subservicename": "Dietary Consultation",
+          "subserviceimage": "path/to/dietaryconsultation/image.jpg",
+          "time": "10:00 AM - 11:00 AM"
+        },
+        {
+          "subservicename": "Nutritional Education",
+          "subserviceimage": "path/to/nutritionaleducation/image.jpg",
+          "time": "11:30 AM - 12:30 PM"
+        },
+        {
+          "subservicename": "Weight Management Program",
+          "subserviceimage": "path/to/weightmanagement/image.jpg",
+          "time": "1:00 PM - 2:00 PM"
+        }
+
+      ]
+    },
+    {
+      "servicename": "Physical Therapy",
+      "serviceimage": "https://img.freepik.com/free-vector/hand-drawn-flat-design-occupational-therapy-illustration_23-2149383354.jpg?w=740&t=st=1700413858~exp=1700414458~hmac=cc2b53c8c0043d529a2186caf96a5a54f011db8925487f5930fac93153293f11",
+      "subservices": [
+        {
+          "subservicename": "Rehabilitation Session",
+          "subserviceimage": "path/to/rehabilitation/image.jpg",
+          "time": "2:30 PM - 3:30 PM"
+        },
+        {
+          "subservicename": "Exercise Prescription",
+          "subserviceimage": "path/to/exerciseprescription/image.jpg",
+          "time": "4:00 PM - 5:00 PM"
+        },
+        {
+          "subservicename": "Pain Management",
+          "subserviceimage": "path/to/painmanagement/image.jpg",
+          "time": "5:30 PM - 6:30 PM"
+        }
+
+      ]
+    },
+    {
+      "servicename": "Pediatric Care",
+      "serviceimage": "https://img.freepik.com/premium-vector/pediatrician-examines-kids-baby-development-treatment-cartoon-hand-drawn-illustration_2175-10568.jpg?w=740",
+      "subservices": [
+        {
+          "subservicename": "Well-Child Checkup",
+          "subserviceimage": "path/to/wellchildcheckup/image.jpg",
+          "time": "9:30 AM - 10:30 AM"
+        },
+        {
+          "subservicename": "Pediatric Vaccinations",
+          "subserviceimage": "path/to/pediatricvaccinations/image.jpg",
+          "time": "11:00 AM - 12:00 PM"
+        },
+        {
+          "subservicename": "Developmental Screening",
+          "subserviceimage": "path/to/developmentalscreening/image.jpg",
+          "time": "12:30 PM - 1:30 PM"
+        }
+      ]
+    }       
+  
+]
+      
+  

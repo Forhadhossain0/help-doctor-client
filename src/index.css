@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+.active{
+    color: aquamarine;
+}
+
+.banner_small_img1 {
+    animation: banner_small_img1 5s infinite alternate;
+  }
+  
+  @keyframes banner_small_img1 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-40px);
+    }
+  }
+
+.hero-content1{
+    animation: hero 5s infinite alternate;
+}
+
+  @keyframes hero {
+    0% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
+  
