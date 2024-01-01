@@ -2,13 +2,14 @@ import { useEffect, useState } from 'react';
 import Calendar from 'moedim';
 import Services from './Services';
 import useAxiosPublic from '../../customehooks/useAxiosPublic';
+import { format } from 'date-fns';
 
 
 const Appoinment = () => {
 
 const [value, setValue] = useState(new Date())
 
-const [service,setService] = useState();
+const [service,setService] = useState([]);
 
 const axiosPublic = useAxiosPublic()
 
@@ -17,7 +18,7 @@ useEffect(()=>{
     .then(res=>
         setService(res.data)
         )
-    },[])
+    },[axiosPublic])
     
 
  const [selectedService, setSelectedService] = useState(null);
@@ -28,10 +29,11 @@ useEffect(()=>{
 
 return (
         <>
-            <section className="topbanner relative w-full bg-[#07322F] h-[50vh]">
+            <section className="bg-no-repeat bg-cover bg-[url(https://img.freepik.com/free-vector/bio-tech-health-care-blue-wallpaper-with-heart-beat-cross-design_1017-45459.jpg?w=826&t=st=1701462087~exp=1701462687~hmac=6461c5fb3efb2d038cb3da46c4cfd0084029ba111dd4a6c1097a1a32a9e435ff)] ">
+            <section className="topbanner bg-[#36bfd1a9] relative w-full h-[50vh]">
                  <div className="flex justify-between items-end mx-auto h-full w-[80%]">
-                 <img className="h-1/2 rotate-180" src="../../../../public//image/1.png" alt="" />
-                 <img className="h-1/2" src="../../../../public/image/Group 7.png" alt="" />
+                 <img className="h-1/2 rotate-180" src="https://i.ibb.co/WW6xLWw/1.png" alt="" />
+                 <img className="h-1/2" src="https://i.ibb.co/TktZJcc/Group-7.png" alt="" />
                  </div>
 
                  <div className="text-white absolute bottom-10 md:bottom-28 left-10 md:left-40">
@@ -39,13 +41,14 @@ return (
                     <h2 className="text-3xl font-bold ">Appointment</h2>
                  </div>
             </section>
+            </section>
 
 
 
             {/* main part */}
            <section>
 
-           <div className="bg-[url(../../../../public/image/landing-bg.png)] bg-no-repeat pb-10 bg-cover bg-center w-full h-full md:h-[100vh]">
+           <div className="bg-[url('https://i.ibb.co/dJc5nNv/landing-bg.png')] bg-no-repeat pb-10 bg-cover bg-center w-full h-full md:h-[100vh]">
 
                 <div className="md:flex gap-5 p-10 h-full w-[90%] justify-between  mx-auto items-center">
                    
@@ -55,7 +58,7 @@ return (
                     </div>
             
                     <div className="w-full mx-auto justify-center flex">
-                        <img className="w-[90%]" src="../../../../public/image/chair 1.png" alt="" />
+                        <img className="w-[90%] rounded-xl border" src="https://www.bolton.ac.uk//assets/Uploads/What-is-Medical-Biology-University-of-Bolton.jpg" alt="" />
                     </div>
                 </div>
            
@@ -83,7 +86,7 @@ return (
 
 
 
-        <Services value={value} selectedService={selectedService} ></Services>
+        <Services value={format(value, 'yyyy-MM-dd')} selectedService={selectedService} ></Services>
             
         </>
     );

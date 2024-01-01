@@ -5,13 +5,13 @@ import Footer from "../../userview/footer/Footer";
 
 const Root = () => {
      
-//     const location = useLocation()
-//     const HeaderandFooter_hide = location.pathname.includes('doctorprofile')
+    const location = useLocation()
+    const HeaderandFooter_hide = location.pathname.includes('userProfile') || location.pathname.includes('invoic')
     return (
         <div>
-      {      <Navbar></Navbar>}
+            { HeaderandFooter_hide ||   <Navbar></Navbar>}
             <Outlet></Outlet>
-            <Footer></Footer>
+            { HeaderandFooter_hide ||  <Footer></Footer> }
         </div>
     );
 };

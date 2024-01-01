@@ -16,19 +16,25 @@ const Doctorprofile = ( ) => {
 
 
      //    just for reviews tab
-    const [review,setReview] = useState();
+    const [review,setReview] = useState([]);
     useEffect(()=>{
         axiosPublic.get('/reviews')
         .then(res=>{
             setReview(res.data)
         })
-    },[])
+    },[axiosPublic])
 
+
+
+    const activeTabClasses = 'bg-accent text-white font-bold  rounded p-3';
 
     return (
         
-        <div className="bg-[#f2f2f2]">
-        <div className="h-full pt-32 md:w-[85%] w-[94%] mx-auto">
+    <div className="bg-[#f2f2f2] h-full pb-40">
+
+        <div className="bg-accent h-[22vh]">    </div>
+
+        <div className="h-full pt-10 md:w-[85%] w-[94%] mx-auto">
 
             <div className="md:flex w-full gap-10 bg-[#fff] my-10  p-10 rounded-lg justify-star items-center">
                 <img src={doctor.doctorImage} className="w-[340px] h-[390px]  rounded" alt="" />
@@ -64,13 +70,13 @@ const Doctorprofile = ( ) => {
                        {/* tabs will here starts */}
                      
 
-<Tabs defaultIndex={0} className={'w-full' }  >
+<Tabs selectedTabClassName={activeTabClasses}  defaultIndex={0} className={'w-full' }  >
 
-    <TabList className={'flex items-center md:justify-between justify-center gap-8 flex-wrap md:h-16 w-full   shadow  rounded'}>
-        <Tab className={'font-semibold h-full md:p-0 md:m-0 p-3 m-1 rounded flex items-center bg-orange-200 justify-center md:w-60  text-lg cursor-pointer'}>Overview</Tab>
-        <Tab className={'font-semibold h-full md:p-0 md:m-0 p-3 m-1 rounded flex items-center hover:bg-orange-200 justify-center md:w-60  text-lg cursor-pointer'}>Locations</Tab>
-        <Tab className={'font-semibold h-full md:p-0 md:m-0 p-3 m-1 rounded flex items-center hover:bg-orange-200 justify-center md:w-60  text-lg cursor-pointer'}>Reviews</Tab>
-        <Tab className={'font-semibold h-full md:p-0 md:m-0 p-3 m-1 rounded flex items-center hover:bg-orange-200 justify-center md:w-60  text-lg cursor-pointer'}>Business Hours</Tab>
+    <TabList  className={'flex items-center md:justify-between justify-center gap-8 flex-wrap md:h-16 w-full   shadow  rounded'}>
+        <Tab className={'font-semibold h-full md:p-0 md:m-0 p-3 m-1 rounded flex items-center hover:bg-accent justify-center md:w-60  text-lg cursor-pointer'}>Overview</Tab>
+        <Tab className={'font-semibold h-full md:p-0 md:m-0 p-3 m-1 rounded flex items-center hover:bg-accent justify-center md:w-60  text-lg cursor-pointer'}>Locations</Tab>
+        <Tab className={'font-semibold h-full md:p-0 md:m-0 p-3 m-1 rounded flex items-center hover:bg-accent justify-center md:w-60  text-lg cursor-pointer'}>Reviews</Tab>
+        <Tab className={'font-semibold h-full md:p-0 md:m-0 p-3 m-1 rounded flex items-center hover:bg-accent justify-center md:w-60  text-lg cursor-pointer'}>Business Hours</Tab>
     </TabList>
 
 

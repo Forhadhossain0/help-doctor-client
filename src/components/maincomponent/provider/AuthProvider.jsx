@@ -1,15 +1,14 @@
 import { useEffect, useState,createContext } from "react";
-import auth from "../../firebase/firebase.config";
+import auth from "../../firebase/firebase.config.js";
 import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut, } from "firebase/auth";
-// import useAxiosPublic from "../../customehooks/useAxiosPublic";
 
 export const AuthContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 const AuthProvider = ({children}) => {
 
     const [loading,setLoading] = useState();
     const [user,setUser] = useState();
-    // const axiosPublic = useAxiosPublic()
 
 
     const createUser = (email,password)=>{
@@ -50,8 +49,8 @@ const AuthProvider = ({children}) => {
 
     const userInfo = {
         user,
-        createUser,
         loading,
+        createUser,
         logInUser,
         logOutUser,
     }
